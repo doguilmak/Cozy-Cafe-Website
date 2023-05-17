@@ -1,0 +1,90 @@
+{% extends 'base.html' %} {% load static %} {% block content %}
+<section>
+  <article>
+    <h1>About Us</h1>
+    <!--Begin row-->
+    <div class="row">
+      <!--Begin col-->
+      <div class="column">
+        <p>
+          Located in the heart of vibrant San Francisco, California, Cozy Café is a haven for dessert and coffee lovers
+          seeking a modern twist. Our café is dedicated to crafting delicious treats and serving exceptional coffees
+          that will delight your taste buds and warm your heart. Step into our cozy and inviting space, where you'll be
+          greeted by the aroma of freshly brewed coffee and the tempting display of mouthwatering desserts. Our talented
+          team of pastry chefs creates delectable sweets, from decadent cakes to delicate pastries, using the finest
+          ingredients and innovative techniques. Pair your dessert with our carefully curated selection of coffees,
+          which range from rich and bold to delicate and aromatic, ensuring a perfect match for every palate. At Cozy
+          Café, we believe that great food and coffee should be enjoyed in a welcoming atmosphere that sparks joy and
+          connection. Whether you're catching up with friends, seeking a moment of solitude, or simply treating yourself
+          to a well-deserved indulgence, our café offers the ideal setting for your escape. Visit us at Cozy Café and
+          experience the harmony of delicious desserts and exceptional coffees served with a modern twist.
+        </p>
+
+        <br>
+
+        <h1>Owner</h1>
+        <p>
+          Cozy Café is not just a place for exceptional desserts and coffee; it's the realization of a shared dream by
+          American barista, Hunter Doohan. Born with a passion for the artistry of coffee and the desire to create a
+          welcoming space for people to connect, Hunter embarked on a remarkable journey that led them to the heart of
+          vibrant San Francisco, California.
+        
+          Hunter's love for coffee began at a young age when they discovered the magic of brewing a perfect cup.
+          Inspired by the rich flavors, enticing aromas, and the ability of coffee to bring people together, Hunter knew
+          they wanted to make a career out of their passion. With unwavering determination, they honed their skills as a
+          barista, studying the art of coffee-making and immersing themselves in the world of specialty coffee.
+        </p>
+        <p>
+          Seeking to deepen their knowledge and broaden their horizons, Hunter made a life-changing decision to move to
+          the United States. They recognized the United States as a melting pot of diverse coffee cultures and an ideal
+          place to pursue their dreams of owning a café. With boundless enthusiasm and a spirit of adventure, Hunter set
+          out on a new chapter of their life.
+
+          Arriving in San Francisco, Hunter fell in love with the city's vibrant atmosphere, thriving culinary scene,
+          and the welcoming nature of its residents. They knew this was the perfect place to establish Cozy Café—a haven
+          for dessert and coffee lovers, where their passion and expertise could shine.
+        </p>
+        <p>
+          At Cozy Café, Hunter's vision comes to life. They are dedicated to crafting delicious treats that tantalize
+          the taste buds and warm the heart. The café is adorned with the tempting display of mouthwatering desserts,
+          created by a talented team of pastry chefs. Each sweet indulgence, from decadent cakes to delicate pastries,
+          is meticulously crafted using the finest ingredients and innovative techniques.
+
+          As Cozy Café thrives and becomes a beloved part of the local community, Hunter's dream continues to evolve.
+          They constantly seek new ways to innovate and surprise their customers, blending traditional flavors with
+          modern twists. Hunter's journey as a barista and café owner is an ongoing story of growth, learning, and a
+          deep commitment to excellence.
+
+          Visit Cozy Café, and you'll experience the harmony of delicious desserts, exceptional coffees, and a warm,
+          welcoming environment. It's a testament to Hunter Doohan's relentless pursuit of their dreams, their passion
+          for coffee, and their dedication to creating a space where everyone feels at home.
+          pleasure.
+        </p>
+      </div>
+      <!--End col-->
+
+      <!--Begin col-->
+      <div class="column">
+        <figure class="figure">
+          <img src="{% static 'img/cafe_pic.jpg' %}" alt="Cafe Picture" />
+          <figcaption class="figure-caption">
+            Inside Cozy Café.
+          </figcaption>
+        </figure>
+
+        <br>
+        <br>
+
+        <figure class="figure">
+          <img src="{% static 'img/hunter_doohan.jpg' %}" alt="Hunter Doohan" />
+          <figcaption class="figure-caption">
+            Cozy Café owner, Hunter Doohan.
+          </figcaption>
+        </figure>
+      </div>
+      <!--End col-->
+    </div>
+    <!--End row-->
+  </article>
+</section>
+{% endblock %}
