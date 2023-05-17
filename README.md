@@ -8,9 +8,13 @@
 
 Welcome to the Cozy Café website! This repository contains the code and assets for the Cozy Café, a delightful café located in the heart of vibrant San Francisco, California. The website showcases our menu, café information, and allows customers to book their visits.
 
+<br>
+
 ## Introduction
 
 Cozy Café is a haven for dessert and coffee lovers seeking a modern twist. Our café is dedicated to crafting delicious treats and serving exceptional coffees that will delight your taste buds and warm your heart. With a cozy and inviting space, we strive to create an atmosphere that sparks joy and connection.
+
+<br>
 
 ## Features
 
@@ -19,12 +23,16 @@ Cozy Café is a haven for dessert and coffee lovers seeking a modern twist. Our 
 -   **Menu:** Explore our carefully curated menu, featuring a diverse selection of 18 drinks and desserts. From rich and bold coffees to decadent cakes and delicate pastries, there's something to satisfy every palate.
 -   **Book:** Easily make a reservation to secure your spot at Cozy Café. Whether you're catching up with friends, seeking a moment of solitude, or simply treating yourself to a well-deserved indulgence, our café offers the ideal setting for your escape.
 
+<br>
+
 ## Technologies Used
 
 The Cozy Café website was developed using the following technologies:
 
 -   **Django:** The powerful Python-based web framework for building dynamic and scalable web applications.
 -   **SQLite:** A lightweight and user-friendly database management system used to store café information and manage reservations.
+
+<br>
 
 ## Installation
 
@@ -37,13 +45,19 @@ To run the Cozy Café website locally, follow these steps:
 5.  Access the website by navigating to `http://localhost:8000` in your web browser.
 6. You may create a superuser to add groups and menu items. For that, you must type `python manage.py createsuperuser` in your terminal.
 
+<br>
+
 ## Contribution
 
 We welcome contributions to enhance the Cozy Café website. If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request. Let's collaborate to make Cozy Café even better!
 
+<br>
+
 ## License
 
-This project is licensed under the [MIT License](https://chat.openai.com/LICENSE).
+This project is licensed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License).
+
+<br>
 
 ## Website Preview
 
@@ -64,6 +78,8 @@ This project is licensed under the [MIT License](https://chat.openai.com/LICENSE
 
 ### Booking
 <img width=1000  height=500 src="asset/booking.png">
+
+<br>
 
 <h2>Contact Me</h2>
 <p>If you have something to say to me please contact me:</p>
