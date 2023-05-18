@@ -25,6 +25,8 @@ The Cozy Café website was developed using the following technologies:
 
 -   **Django:** The powerful Python-based web framework for building dynamic and scalable web applications.
 -   **SQLite:** A lightweight and user-friendly database management system used to store café information and manage reservations.
+-   **HTML:** Created structure of the website using HTML.
+-   **CSS:** Designed and modified to make it warm and inviting website for the people using CSS.
 
 ## Installation
 
@@ -44,7 +46,7 @@ We welcome contributions to enhance the Cozy Café website. If you have any sugg
 
 ## License
 
-This project is licensed under the [MIT License](https://chat.openai.com/LICENSE).
+This project is licensed under the [MIT License](https://opensource.org/license/mit/).
 
 ## Website Preview
 
